@@ -23,19 +23,19 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1167760523090219088')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=MtlA34oIUdU') //Must be a youtube video link 
     .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setName('Primo')
+    .setDetails(`.gg/eporium [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1138857476847054941/1202617431290290216/1d5d94b455a1b3292a78f2e4a58f1ef6.png?ex=65ce1bc3&is=65bba6c3&hm=c0e327b63621128339c8e349457db59a2ff0c32529b0f3c0886f90e04511b6f4&=&format=webp&quality=lossless&width=458&height=458') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Nitro & ExitLag available!') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1117852451236761691.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('Legit Discord Shop!') //Text when you hover the Small image
+    .addButton('Shop', 'https://discord.com/invite/eporium')
+    .addButton('Vouches', 'https://discord.gg/bG6PgpBA2P');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
