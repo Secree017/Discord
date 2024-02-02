@@ -33,8 +33,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('Nitro & ExitLag available!') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1117852451236761691.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Legit Discord Shop!') //Text when you hover the Small image
-    .addButton('Shop', 'https://discord.com/invite/eporium')
-    .addButton('Vouches', 'https://discord.gg/bG6PgpBA2P');
+    .addButton('⇢˗ˏˋShop࿐ྂ', 'https://discord.com/invite/eporium')
+    .addButton('⇢˗ˏˋVouches࿐ྂ', 'https://discord.gg/bG6PgpBA2P');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -43,7 +43,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` [${newTime}]`;
+      const newDetails = ` .gg/eporium`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
