@@ -29,7 +29,7 @@ client.on('ready', async () => {
     .setState('Valorant')
     .setName('Primo')
     .setDetails(`.gg/eporium `)
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1138857476847054941/1202617431290290216/1d5d94b455a1b3292a78f2e4a58f1ef6.png?ex=65ce1bc3&is=65bba6c3&hm=c0e327b63621128339c8e349457db59a2ff0c32529b0f3c0886f90e04511b6f4&=&format=webp&quality=lossless&width=458&height=458') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1193573791155097630/1227583263791513610/04e4a49b482bbcf1bbd17d4c173df9ef.png?ex=6628ef01&is=66167a01&hm=c0c0de9ead5b4a31d9c6ab0079f879861b434cbb75efd2b64dca36ffe7d9080c&=&format=webp&quality=lossless&width=350&height=350') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Nitro & ExitLag available!') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1117852451236761691.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Legit Discord Shop!') //Text when you hover the Small image
