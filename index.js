@@ -29,9 +29,9 @@ client.on('ready', async () => {
     .setState('Valorant')
     .setName('Primo')
     .setDetails(`.gg/eporium `)
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1193573791155097630/1227583263791513610/04e4a49b482bbcf1bbd17d4c173df9ef.png?ex=6628ef01&is=66167a01&hm=c0c0de9ead5b4a31d9c6ab0079f879861b434cbb75efd2b64dca36ffe7d9080c&=&format=webp&quality=lossless&width=350&height=350') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1187227299112820756/1242765146061799515/fe978b35ead918577cf8ab65493e0726.png?ex=664f06bc&is=664db53c&hm=bceeb23402860c6719ac25f75b75ffdcf369b79420f7c68c7b9b311ca0e63148&=&format=webp&quality=lossless&width=379&height=458') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Nitro & ExitLag available!') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1112431082592280679.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1167746213307756566.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Legit Discord Shop!') //Text when you hover the Small image
     .addButton('⇢˗ˏˋShop࿐ྂ', 'https://discord.com/invite/eporium')
     .addButton('⇢˗ˏˋVouches࿐ྂ', 'https://discord.gg/bG6PgpBA2P');
