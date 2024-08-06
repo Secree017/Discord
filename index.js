@@ -20,7 +20,6 @@ const BUTTONS = [
   { label: '⇢˗ˏˋShop࿐ྂ', url: 'https://discord.com/invite/eporium' },
   { label: '⇢˗ˏˋVouches࿐ྂ', url: 'https://discord.gg/bG6PgpBA2P' }
 ];
-const TIME_ZONE = 'America/New_York';
 const UPDATE_INTERVAL = 60000; // Update every minute
 
 function formatTime() {
