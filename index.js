@@ -30,8 +30,8 @@ client.on('ready', async () => {
     .setName('Epsilon')
     .setDetails(`.gg/eporium`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1138857476847054941/1259752264457785445/4c301f482575825126c32583e1188411.png?ex=668cd338&is=668b81b8&hm=ef58fa092942d27c1ad5feca0addfcdc2d9b3e0758222e4927fb18955d7314fb&=&format=webp&quality=lossless&width=350&height=350') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Nitro & Exitlag available !') //Text when you hover the Large image
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1138857476847054941/1270354246105301077/c78da7861df114e834ab4ab323983317.png?ex=66c33716&is=66c1e596&hm=e98e3abdc7edc6c73af19c1f1a1993dad226a71ddc9d6e1097ae34f522c238fc&=&format=webp&quality=lossless') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Hehez') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1117852451236761691.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Legit Discord Shop !') //Text when you hover the Small image
     .addButton('⇢˗ˏˋShop࿐ྂ', 'https://discord.com/invite/eporium')
