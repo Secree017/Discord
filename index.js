@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `.gg/eporium`;
+      const newDetails = `pusa sa Sorsogon`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
